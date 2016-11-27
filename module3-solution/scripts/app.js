@@ -76,7 +76,7 @@ function foundItemsDirectiveController()
               var key="description";
               var value;
               var found=[];
-              console.log(all_menu_items);
+              //console.log(all_menu_items);
               searchTerm=searchTerm.toLowerCase();
               for(var menuItem in all_menu_items)
               {
@@ -90,7 +90,7 @@ function foundItemsDirectiveController()
                   });
                 }
               }
-console.log(found);
+//console.log(found);
                 return (found);
                //alert(menulist.items);
              })
