@@ -42,7 +42,7 @@
 
 function foundItemsDirective(){
   var ddo={
-    templateUrl:'/templates/foundItems.html',
+    templateUrl:'templates/foundItems.html',
     scope:{
       foundItem:'<',
       onRemove:'&',
